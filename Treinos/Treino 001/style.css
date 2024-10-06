@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar_extra {
+    background-color: black;
+    width: 100vp;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar_extra > div {
+    
+    font-family: 'Inter';
+    font-size: 0.75em;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    width: 200px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#encontre {
+    width: 140px;
+}
+
+#ajuda {
+    width: 40px;
+}
+
+#ebac_shoes {
+    width: 80px;
+}
+
+#login {
+    width: 40px;
+}
+
+.bar_extra > div:hover {
+    text-decoration: underline;
+}
+
+.header {
+    /*display: flex;
+    justify-content: center;*/
+    padding: 20px 20px 20px 20px;
+}
+
+.nav_itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_icons_space {
+    width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_icons_space > div {
+    width: 15px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.itens {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 0.87em;
+    font-family: 'Inter';
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ul_itens {
+    display: flex;
+    /* text-decoration: none; */
+    list-style-type: none; /* Retira o estilo de um formulário */
+}
+
+.ul_itens > li {
+    padding: 0px 15px 0px 15px;
+}
+
+.ul_itens > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.anuncios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    padding: 10px 5px 10px 5px;
+}
+
+.anuncios > img {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.anuncio {
+    font-size: 1em;
+    font-family: 'Inter';
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.anuncio > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main_itens {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 20px;
+    background-color: rgb(212, 231, 255);
+    border-radius: 20px;
+}
+
+.text_princ {
+    font-family: 'Noto Serif';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 5.5em;
+    margin-bottom: 20px;
+}
+
+.text_secund {
+    font-family: 'Inter';
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.main_btn {
+    font-family: 'Inter';
+    background-color: black;
+    color: white;
+    font-size: 0.87em;
+    padding: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+.main_btn:hover {
+    cursor: pointer;
+}
+
+.main_btn_two:hover {
+    cursor: pointer;
+}
+
+.opcao {
+    margin: 15px;
+    padding: 20px;
+}
+
+.opcao_btn {
+    display: flex;
+}
+
+.main_btn_two {
+    font-family: 'Inter';
+    border: 1px solid black;
+    font-size: 0.87em;
+    padding: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+.spaceone {
+    width: 5px;
+}
+
+.caixas {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa:hover {
+    box-shadow: 0px 0px 10px rgba(78, 85, 94, 0.521);
+}
+
+.caixa {
+    display: block;
+    width: 200px;
+    height: 240px;
+    background-color: rgb(212, 231, 255);
+}
+
+.coracao {
+    display: flex;
+    justify-content: right;
+    float: right;
+    margin: 5px;
+}
+
+.info {
+    text-align: end;
+}
+
