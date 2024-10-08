@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        table{
+            width: 800px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        thead{
+            background-color: gray;
+            color: white;
+            border: 1px solid black;
+        }
+        thead > tr > th {
+            background-color: gray;
+            position: sticky;
+            top: -1px;
+        }
+        tr#titulo > td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            font-weight: 600;
+            
+        }
+        tbody > tr:nth-child(2n){
+            background-color: rgb(219, 219, 219);
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+</body>
+    <table> <!--Definindo uma tabela-->
+        <caption>População dos Estados do Brasil</caption>
+        <thead> <!--Definindo o título de uma tabela (cabeçalho)-->
+            <tr id="titulo"> <!--Definindo linha de uma tabela-->
+                <th scope="col">Posição</th> <!--Definindo dados de uma tabela-->
+                <th scope="col">Unidade Federativa</th>
+                <th scope="col">População</th>
+                <th scope="col">% da População</th>
+                <th scope="col">País comparável (População)</th>
+            </tr>
+        </thead>
+        <tbody> <!--Definindo corpo de uma tabela (demais dados)-->
+            <tr> <!--Linha de SãoPaulo-->
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>43.534.543</td>
+                <td>34%</td>
+                <td>Emirados Árabes</td>
+            </tr>
+            <tr> <!--Linha de RJ-->
+                <td>2</td>
+                <td>Rio de Janeiro</td>
+                <td>17.242.234</td>
+                <td>24%</td>
+                <td>Bolívia</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pernambuco</td>
+                <td>173.342</td>
+                <td>12%</td>
+                <td>Singapura</td>
+            </tr>
+            <tr>
+                <td>z</td>
+                <td>z</td>
+                <td>z</td>
+                <td>z</td>
+                <td>z</td>
+            </tr>
+        </tbody>
+        <tfoot> <!--Definindo o rodapé-->
+            
+        </tfoot>
+    </table>
+</html>
