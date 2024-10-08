@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Formulário</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--Todo formulário começa com form e termina com /form-->
+    <form action="cadastrar.login" autocomplete="off" method="post">
+        <!--Quando se trata de formulários que envolvem inserção de texto, o input:text se torba o melhor. É necessário pôr um nome e id que façam sentido com o campo a ser preenchido em questão--> 
+        <!--Label cria relação entre os nomes dos formulários. Para isso, o que vai no for, precisa ser o id do input-->
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <!--Quando se trata de um botão para enviar algo, algum dado, ou algo do tipo, se usa o input:submit. Ele só possui um campo, que é value, se tratando do nome que fica dentro do botão-->
+        <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha"></p>
+        
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
