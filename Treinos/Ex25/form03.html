@@ -27,7 +27,7 @@
     <form action="" method="post" autocomplete="on">
         <div>
             <label for="iest">Estados: </label>
-            
+            <!--Para se criar uma lista, não se usa um input, mas sim uma tag, sendo select. Um ponto chave que dentro do select devem haver option, que são opções que serão mostradas na lista! Essas opções podem ser agrupadas dentro de um optgroup-->
             <select name="estado" id="iest">
                 <option value="" selected>Escolha um Estado</option>
                 <optgroup label="Região Sudeste">
@@ -44,6 +44,7 @@
 
         <div>
             <label for="">Escolha um Programa de Design:</label>
+            <!--Para se criar um campo com opções, mas que o usuário possa digitar, se usa um input normal do tipo text, porém, logo após ele se usa uma datalist, que da mesma forma que um select, existem option dentro dela! A grande diferença é que para a datalist aparecer, é necessário que ela possua um id, e que o input do tipo text mencione essa id por meio de uma list-->
             <input type="text" name="software" id="isoftware" list="listsoftware">
             <datalist id="listsoftware">
                 <option value="AP">Adobe Photoshop</option>
