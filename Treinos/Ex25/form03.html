@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Adicionando input do tipo checkbox. O nome vem depois do input, afinal, a opção vem antes. Aqui se faz o uso do label para o nome ficar relacionado com o input e tornar mais fácil a digitação.-->
+    <form action="" autocomplete="on" method="post">
+        <fieldset>
+            <!--Em botão de rádio só se pode escolher uma opção. Para isso funcionar, todas as opções devem ter O MESMO NOME, e não a id. Assim, as opções se tornarão únicas, sem a opção de múltipla escolha.-->
+            <input type="radio" name="sexo" id="imasc"> <label for="imasc">Masculino</label>
+            <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label>
+            <input type="radio" name="sexo" id="ioutros"> <label for="ioutros">Outros</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <input type="checkbox" name="carro" id="icarro"> <label for="icarro">Carros</label>
+            <input type="checkbox" name="moto" id="imoto"> <label for="imoto">Motos</label>
+            <input type="checkbox" name="bike" id="ibike"> <label for="ibike">Bicicleta</label>
+            <input type="checkbox" name="caminhao" id="icaminhao"> <label for="icaminhao">Caminhão</label>
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="iest">Estados: </label>
+            
+            <select name="estado" id="iest">
+                <option value="" selected>Escolha um Estado</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="PE">Pernambuco</option>
+                    <option value="BH">Bahia</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Escolha um Programa de Design:</label>
+            <input type="text" name="software" id="isoftware" list="listsoftware">
+            <datalist id="listsoftware">
+                <option value="AP">Adobe Photoshop</option>
+                <option value="AI">Adobe Illustrator</option>
+                <option value="FG">Figma</option>
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
