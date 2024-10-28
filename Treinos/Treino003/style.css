@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background-color: #655F77;
+}
+#conteiner{
+    background-color: #3a3644;
+    width: 90vw;
+    height: 530px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 45px;
+}
+#area_left{
+    background-color: rgb(177, 177, 177);
+    background-image: url(imagem/massimiliano-morosinotto-MljwsnGwdOY-unsplash.jpg);
+    background-size: cover;
+    width: 40vw;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#superior_area{
+    display: flex;
+    justify-content: space-between;
+}
+#back{
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+}
+button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#logo{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#inferior_area{
+    text-align: center;
+}
+#cards{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    height: 5px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.568);
+    border-radius: 10px;
+}
+.cards:hover{
+    background-color: rgba(255, 255, 255, 0.938);
+}
+#area_right{
+    color: white;
+    width: 40vw;
+    padding: 10px;
+}
+a{
+    color: rgb(167, 112, 255);
+}
+#senha{
+    width: 330px;
+}
